@@ -1,0 +1,24 @@
+{% if section.anchor %}
+<a id="{{ section.anchor }}"></a>
+{% endif %}
+<section>
+    {% block index_section %}
+    <div>
+        {% if section.title %}
+            <div>
+                <h2>{{ section.title }}</h2>
+                {% if section.subtitle %}
+                    <h3>{{section.subtitle}}</h3>
+                {% endif %}
+                <div></div>
+            </div>
+        {% else %}
+            {% block index_section_header %}
+            {% endblock %}
+        {% endif %}
+
+        {% block index_section_content %}
+        {% endblock %}
+    </div>
+    {% endblock %}
+</section>

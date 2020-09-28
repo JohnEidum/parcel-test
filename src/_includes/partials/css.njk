@@ -1,0 +1,6 @@
+<link rel="icon" type="image/png" href="{{config.favicon or '/resources/favicon.png'}}" />
+<link rel="preload" href="https://fonts.googleapis.com/css?family={{config.font.name}}:{{ config.font.sizes | join(",") }}" as="style">
+<link rel="stylesheet" type="text/css" href="{{page_style or config.site_style or '/style/styles.css'}}">
+{% for preconnect in preconnects %}
+<link rel="preconnect" href="{{ preconnect }}">
+{% endfor %}

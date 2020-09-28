@@ -1,0 +1,16 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ config.languageCode }}">
+<head>
+    {% include "partials/css.njk" %}
+    <title>Test</title>
+  </head>
+  <body>
+    <main>
+    {% block main %}
+    {{ content | safe }}
+    {% endblock %}
+    </main>
+</body>
+</html>

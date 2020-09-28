@@ -1,0 +1,10 @@
+---
+layout: base
+page_style:
+  - '/style/styles.css'
+---
+{% block main %}
+{% for section in index_sections %}
+{% include section.include %}
+{% endfor %}
+{% endblock %}

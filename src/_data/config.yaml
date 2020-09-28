@@ -1,0 +1,102 @@
+baseURL: https://www.gozynta.com
+site_style: /style/styles.css
+favicon: /resources/favicon.png
+languageCode: en-us
+title: Solutions for MSPs
+
+font:
+  name: "Open Sans"
+  sizes: [400,600]
+
+googletagid: GTM-WZPBQN7 # gozynta.com
+
+meta:
+  description: "Gozynta specializes on software integrations for ConnectWise Manage and the MSP community."
+  author: Gozynta, LLC
+
+rightnavbar:
+- title: Blog
+  url: /blog/
+- title: Products
+  subtitles:
+  - title: <a href="/tixt" style="color:#8dc63f" class="subtitle_header">Gozynta Tixt</a>
+    link: /tixt/
+    img:
+      src: /resources/logos/tixt_logo_name.svg
+      alt: Tixt
+    sublinks:
+      - title: How it works
+        icon: fa fa-cogs
+        url: /tixt/#how-it-works
+      - title: Pricing
+        icon: fa fa-credit-card
+        url: /tixt/#pricing
+      - title: Knowledge Base
+        icon: fa fa-lightbulb-o
+        url: https://help.gozynta.com/support/solutions/44000353113
+      - title: Success Stories
+        icon: fa fa-smile-o
+        url: /tixt/#success-stories
+  - title: <a href="/mobius" style="color:#92278f" class="subtitle_header">Gozynta Mobius</a>
+    link: /mobius/
+    img:
+      src: /resources/logos/gozynta_mobius.svg
+      alt: Mobius
+    sublinks:
+      - title: How it works
+        icon: fa fa-cogs
+        url: /mobius/#how-it-works
+      - title: Pricing
+        icon: fa fa-credit-card
+        url: /mobius/#pricing
+      - title: Knowledge Base
+        icon: fa fa-lightbulb-o
+        url: https://help.gozynta.com/support/solutions/44000472443
+      - title: Success Stories
+        icon: fa fa-smile-o
+        url: /mobius/#success-stories
+  url: /#Products
+- title: About Us
+  url: /#AboutUs
+- title: Contact Us
+  url: /#ContactUs
+#- title: Sign up
+#  url: /
+#  button: true
+navbarlogo:
+  # Logo
+  image: /resources/logos/gozynta-logo-color.svg
+  link: /
+  alt: "Gozynta"
+footer:
+  logo:
+      src: /resources/logos/gozynta-logo-color.svg
+      alt: Gozynta
+      url: /
+  # Social media links (GitHub, Twitter, etc.). All are optional.
+  socialmedia:
+  - link: https://facebook.com/Gozynta
+    icon: facebook
+    alt: Facebook
+  - link: https://twitter.com/gozynta
+    icon: twitter
+    alt: Twitter
+  - link: https://www.linkedin.com/company/gozynta
+    icon: linkedin
+    alt: LinkedIn
+  - link: https://www.instagram.com/gozynta/
+    icon: instagram
+    alt: Instagram
+  quicklinks:
+  - title: Products
+    links:
+    - text: Gozynta Tixt
+      link: /tixt/
+    - text: Gozynta Mobius
+      link: /mobius/
+  - title: Company
+    links:
+    - text: Contact Us
+      link: /#ContactUs
+    - text: Privacy Policy
+      link: /privacy

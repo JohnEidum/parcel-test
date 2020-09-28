@@ -1,0 +1,9 @@
+# Available variables:
+# - title
+# - subtitle
+# - anchor
+# - sectionClass
+# - include
+index_sections:
+  - anchor: Test
+    include: "index_sections/test.njk"
